@@ -1,63 +1,57 @@
 # VRCFX
 
-A calm, fast desktop toolkit for VRChat.
+**All-in-one VRChat toolkit for Windows.**
 
-Friends, avatars, worlds, and live room awareness — kept close, without getting in the way of the game.
+Friends, avatars, worlds, and live room awareness — close at hand, out of the way while you play.
+
+[Download latest](https://github.com/DARKSIDE957/VRCFX/releases/latest) · [Privacy Policy](./PRIVACY.md)
 
 ---
 
-## Features
+## What you get
 
-**Friends**  
-See who’s online, where they went, and tidy up contacts that went quiet.
-
-**Avatars**  
-Wear favorites in one click and keep your equipped look in sync.
-
-**Worlds**  
-Open saved places or explore what’s trending right now.
-
-**Live Radar**  
-Know who’s in your instance from local VRChat logs — instantly.
-
-**Alerts**  
-Clear notifications in-app or on the desktop, when you want them.
-
-**Chatbox tools**  
-Optional OSC helpers for status lines and live HUD text.
+| | |
+| :--- | :--- |
+| **Friends** | Who’s online, where they went, and quiet contacts you may want to clean up. |
+| **Avatars** | Wear favorites in one click. Free list always works; VRC+ lists unlock with Plus. |
+| **Worlds** | Jump into saved places, or browse what’s active right now. |
+| **Live Radar** | Who’s in your instance — from local VRChat logs, as it happens. |
+| **Alerts** | Clear notifications in-app or on the desktop, when you want them. |
+| **Chatbox** | Optional OSC helpers for status lines and live HUD text. |
 
 ---
 
 ## Install
 
-1. Download the latest Windows installer from Releases.  
-2. Run it — if VRCFX is already on this PC, the installer shows the current path and version, then only updates when it should.  
-3. Sign in with your VRChat account (2FA supported).  
-4. Use the sidebar to move between Friends, Worlds, Avatars, Radar, and Settings.
+1. Grab the latest **Windows** installer from [Releases](https://github.com/DARKSIDE957/VRCFX/releases/latest).
+2. Run it. If VRCFX is already installed, setup shows the current path and version, and only updates when it should.
+3. Sign in with your VRChat account (2FA supported).
+4. Use the sidebar: Friends, Worlds, Avatars, Radar, Settings.
 
-Notes, settings, and local history stay on your machine across updates.
-
----
-
-## Stay current
-
-Use **Update** in the sidebar (above Mute).  
-VRCFX checks Releases, downloads the installer when a newer build exists, closes itself for the install, then opens again when setup finishes.
+Notes, settings, and local history stay on your PC across updates.
 
 ---
 
-## Privacy & Policy
+## Stay up to date
 
-How VRCFX handles sessions, local data, Live Radar logs, and updates is described in **[PRIVACY.md](./PRIVACY.md)**.
+In the app, tap **Update** in the sidebar (above Mute).
 
-In the app, open **Settings → Privacy & Policy**, or read the same policy under **Guide → Privacy & Policy**.
-
----
-
-## Support
-
-If something breaks, note what you were doing and which version you’re on, then open an issue on this repository.
+VRCFX checks Releases, downloads a newer installer when one exists, closes for setup, then opens again when install finishes.
 
 ---
 
-VRCFX — built for players who want a cleaner desktop experience.
+## Privacy
+
+How sessions, local data, Live Radar logs, and updates are handled: **[PRIVACY.md](./PRIVACY.md)**.
+
+In the app: **Settings → Privacy & Policy**, or **Guide → Privacy & Policy**.
+
+---
+
+## Help
+
+Something break? Note what you were doing and which version you’re on, then [open an issue](https://github.com/DARKSIDE957/VRCFX/issues).
+
+---
+
+<sub>VRCFX — a cleaner desktop experience for VRChat.</sub>
