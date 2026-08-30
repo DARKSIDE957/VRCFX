@@ -1,6 +1,6 @@
 # VRCFX
 
-**All-in-one VRChat companion for Windows.**
+**All-in-one VRChat toolkit for Windows.**
 
 Stay connected to friends, switch avatars faster, explore worlds, and keep your VRChat life organized — without fighting the game for focus.
 
@@ -37,7 +37,7 @@ VRCFX checks the private release channel, downloads the installer when something
 ## Privacy
 
 VRCFX is distributed from a **private** repository.  
-Access is limited to people you share it with. Session data and companion settings stay local unless you choose to back them up.
+Access is limited to people you share it with. Session data and app settings stay local unless you choose to back them up.
 
 ---
 
@@ -47,4 +47,4 @@ If something breaks, note what you were doing and which version you’re on (vis
 
 ---
 
-© VRCFX — Built for VRChat players who want a cleaner companion experience.
+© VRCFX — Built for VRChat players who want a cleaner desktop experience.
