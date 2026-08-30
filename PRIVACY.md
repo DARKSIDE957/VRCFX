@@ -98,7 +98,7 @@ This policy may be updated when features change. The “Last updated” date at 
 
 ## Contact
 
-If you have privacy questions about VRCFX, contact the person or channel that shared the app with you, and include your app version when possible.
+If you have privacy questions about VRCFX, open an issue on this repository and include your app version when possible.
 
 ---
 
