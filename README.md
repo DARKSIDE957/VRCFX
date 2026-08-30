@@ -54,9 +54,9 @@ In the app, open **Settings → Privacy & Policy**, or read the same policy unde
 
 ---
 
-## Need a hand?
+## Support
 
-Note what you were doing and which version you’re on, then reach out to whoever shared VRCFX with you.
+If something breaks, note what you were doing and which version you’re on, then open an issue on this repository.
 
 ---
 
