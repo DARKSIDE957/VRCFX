@@ -46,6 +46,14 @@ VRCFX checks Releases, downloads the installer when a newer build exists, closes
 
 ---
 
+## Privacy & Policy
+
+How VRCFX handles sessions, local data, Live Radar logs, and updates is described in **[PRIVACY.md](./PRIVACY.md)**.
+
+In the app, open **Settings → Privacy & Policy**, or read the same policy under **Guide → Privacy & Policy**.
+
+---
+
 ## Need a hand?
 
 Note what you were doing and which version you’re on, then reach out to whoever shared VRCFX with you.
