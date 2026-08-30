@@ -17,7 +17,6 @@ Friends, avatars, worlds, and live room awareness — close at hand, out of the 
 | **Worlds** | Jump into saved places, or browse what’s active right now. |
 | **Live Radar** | Who’s in your instance — from local VRChat logs, as it happens. |
 | **Alerts** | Clear notifications in-app or on the desktop, when you want them. |
-| **Chatbox** | Optional OSC helpers for status lines and live HUD text. |
 
 ---
 
