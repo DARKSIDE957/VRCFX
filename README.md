@@ -2,7 +2,7 @@
 
 **All-in-one VRChat toolkit for Windows.**
 
-Friends, avatars, worlds, and live room awareness — close at hand, out of the way while you play.
+Friends, avatars, worlds, and live room awareness. Close at hand, out of the way while you play.
 
 [Download latest](https://github.com/DARKSIDE957/VRCFX/releases/latest) · [Privacy Policy](./PRIVACY.md)
 
@@ -15,7 +15,7 @@ Friends, avatars, worlds, and live room awareness — close at hand, out of the 
 | **Friends** | Who’s online, where they went, and quiet contacts you may want to clean up. |
 | **Avatars** | Wear favorites in one click. Free list always works; VRC+ lists unlock with Plus. |
 | **Worlds** | Jump into saved places, or browse what’s active right now. |
-| **Live Radar** | Who’s in your instance — from local VRChat logs, as it happens. |
+| **Live Radar** | Who’s in your instance, from local VRChat logs, as it happens. |
 | **Alerts** | Clear notifications in-app or on the desktop, when you want them. |
 
 ---
@@ -53,4 +53,4 @@ Something break? Note what you were doing and which version you’re on, then [o
 
 ---
 
-<sub>VRCFX — a cleaner desktop experience for VRChat.</sub>
+<sub>VRCFX. A cleaner desktop experience for VRChat.</sub>
