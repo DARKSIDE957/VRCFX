@@ -1,0 +1,111 @@
+{
+  "name": "vrcfx",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "All-in-one VRChat Companion Application",
+  "main": "dist-electron/main.cjs",
+  "scripts": {
+    "build:electron": "node scripts/prepare-update-auth.cjs && node scripts/build-electron.cjs",
+    "build": "tsc && vite build && npm run build:electron",
+    "start": "node scripts/start-app.cjs",
+    "dev": "concurrently -k \"vite\" \"wait-on tcp:5173 && node scripts/start-app.cjs --dev\"",
+    "electron:dev": "npm run dev",
+    "postinstall": "node scripts/brand-electron-dist.cjs",
+    "brand:electron": "node scripts/brand-electron-dist.cjs",
+    "electron:build": "npm run build && electron-builder --win --dir && node scripts/patch-exe-branding.cjs",
+    "electron:dist": "npm run build && electron-builder --win nsis dir && node scripts/patch-exe-branding.cjs",
+    "release:github": "npm run electron:dist && node scripts/publish-github-release.cjs"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "chokidar": "^3.6.0",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.469.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwind-merge": "^2.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "concurrently": "^9.1.0",
+    "electron": "^33.2.1",
+    "electron-builder": "^25.1.8",
+    "png-to-ico": "^3.0.2",
+    "postcss": "^8.4.49",
+    "resedit": "^1.7.2",
+    "sharp": "^0.35.4",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.5",
+    "vite-plugin-electron": "^0.29.0",
+    "vite-plugin-electron-renderer": "^0.14.6",
+    "wait-on": "^8.0.1"
+  },
+  "build": {
+    "appId": "com.vrcfx.app",
+    "productName": "VRCFX",
+    "icon": "build/icon.ico",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist/**/*",
+      "dist-electron/**/*"
+    ],
+    "win": {
+      "icon": "build/icon.ico",
+      "executableName": "VRCFX",
+      "signAndEditExecutable": false,
+      "legalTrademarks": "VRCFX",
+      "target": [
+        "nsis",
+        "dir"
+      ]
+    },
+    "extraResources": [
+      {
+        "from": "build/icon.ico",
+        "to": "icon.ico"
+      },
+      {
+        "from": "build/icon.png",
+        "to": "icon.png"
+      },
+      {
+        "from": "build/update-auth.json",
+        "to": "update-auth.json"
+      }
+    ],
+    "extraFiles": [
+      {
+        "from": "build/VRCFX.VisualElementsManifest.xml",
+        "to": "VRCFX.VisualElementsManifest.xml"
+      }
+    ],
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "allowElevation": true,
+      "createDesktopShortcut": "always",
+      "createStartMenuShortcut": true,
+      "shortcutName": "VRCFX",
+      "uninstallDisplayName": "VRCFX",
+      "deleteAppDataOnUninstall": false,
+      "runAfterFinish": true,
+      "artifactName": "VRCFX-Setup-${version}.${ext}"
+    },
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "DARKSIDE957",
+        "repo": "VRCFX",
+        "releaseType": "release",
+        "private": true
+      }
+    ]
+  }
+}

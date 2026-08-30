@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<application xmlns="http://schemas.microsoft.com/windows/2019/Appx/Application">
+  <visualElements
+    backgroundColor="#000000"
+    displayName="VRCFX"
+    square150x150Logo="resources\icon.png"
+    square70x70Logo="resources\icon.png"
+    foregroundText="light"
+  />
+</application>
