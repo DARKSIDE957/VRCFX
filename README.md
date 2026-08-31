@@ -82,11 +82,15 @@ The Windows installer and the app were both scanned on VirusTotal. No antivirus 
 </p>
 
 <p align="center">
-  <img src="./docs/virustotal-installer-1.1.2.png" alt="VirusTotal clean scan for the VRCFX installer" width="820">
+  <a href="https://www.virustotal.com/gui/file/3d74f17227ffa75a2aedaa724aa8eeaf460821cb15ecbc0204f67acceed73bf7">
+    <img src="./docs/virustotal-installer.png" alt="VirusTotal clean result for the VRCFX installer" width="720">
+  </a>
 </p>
 
 <p align="center">
-  <img src="./docs/virustotal-exe-1.1.2.png" alt="VirusTotal clean scan for VRCFX" width="820">
+  <a href="https://www.virustotal.com/gui/file/b6ac95057a40f511d2c8abff4a2580b06ea94d918fb3dcd6bbd9c3b7d64e727e">
+    <img src="./docs/virustotal-app.png" alt="VirusTotal clean result for VRCFX" width="720">
+  </a>
 </p>
 
 ---
