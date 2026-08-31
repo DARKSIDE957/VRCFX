@@ -143,11 +143,11 @@ Something break?
 
 ## Like VRCFX?
 
-If it helps your sessions, pass it along.
+If you like the app, share it with friends who play VRChat.
 
-Share the repo with a friend who plays VRChat, or send them the [latest release](https://github.com/DARKSIDE957/VRCFX/releases/latest).
+You can send them this repo, or the [latest download](https://github.com/DARKSIDE957/VRCFX/releases/latest).
 
-A star on GitHub helps more people find it too.
+A star on GitHub helps too.
 
 <p align="center">
   <a href="https://github.com/DARKSIDE957/VRCFX"><img src="https://img.shields.io/badge/Star_this_repo-111111?style=for-the-badge&logo=github" alt="Star this repo"></a>
