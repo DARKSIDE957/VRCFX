@@ -31,6 +31,20 @@ Notes, settings, and local history stay on your PC across updates.
 
 ---
 
+## VirusTotal
+
+v1.1.2 was scanned on VirusTotal. No engines flagged the installer or the app exe.
+
+**Installer** (`VRCFX-Setup-1.1.2.exe`) · [open report](https://www.virustotal.com/gui/file/3d74f17227ffa75a2aedaa724aa8eeaf460821cb15ecbc0204f67acceed73bf7)
+
+![VirusTotal clean scan for VRCFX-Setup-1.1.2.exe](./docs/virustotal-installer-1.1.2.png)
+
+**App** (`VRCFX.exe`) · [open report](https://www.virustotal.com/gui/file/b6ac95057a40f511d2c8abff4a2580b06ea94d918fb3dcd6bbd9c3b7d64e727e)
+
+![VirusTotal clean scan for VRCFX.exe](./docs/virustotal-exe-1.1.2.png)
+
+---
+
 ## Stay up to date
 
 In the app, tap **Update** in the sidebar (above Mute).
