@@ -56,6 +56,14 @@ Know who is in your instance from local VRChat logs, as it happens on your PC.
 ### Alerts
 Clear notifications in the app or on the desktop. Turn them on when you want them. Mute when you do not.
 
+### Languages
+Switch the whole app language in Settings. Available now:
+
+- English
+- Arabic
+- Spanish
+- French
+
 ---
 
 ## Install
@@ -75,10 +83,20 @@ VRCFX is totally safe to download and use.
 
 The Windows installer and the app were both scanned on VirusTotal. No antivirus engines reported malware or anything harmful.
 
+You can also scan it yourself any time:
+
+1. Go to [VirusTotal](https://www.virustotal.com/gui/home/upload).
+2. Upload the installer or `VRCFX.exe` you just downloaded.
+3. Wait for the report and confirm it is clean before you install.
+
+Do this again whenever you download a new version. Each build is a new file, so a fresh scan is the safest check.
+
 <p align="center">
   <a href="https://www.virustotal.com/gui/file/3d74f17227ffa75a2aedaa724aa8eeaf460821cb15ecbc0204f67acceed73bf7"><strong>Installer report</strong></a>
   ·
   <a href="https://www.virustotal.com/gui/file/b6ac95057a40f511d2c8abff4a2580b06ea94d918fb3dcd6bbd9c3b7d64e727e"><strong>App report</strong></a>
+  ·
+  <a href="https://www.virustotal.com/gui/home/upload"><strong>Scan a file yourself</strong></a>
 </p>
 
 <p align="center">
