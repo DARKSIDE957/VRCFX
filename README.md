@@ -141,6 +141,21 @@ Something break?
 
 ---
 
+## Like VRCFX?
+
+If it helps your sessions, pass it along.
+
+Share the repo with a friend who plays VRChat, or send them the [latest release](https://github.com/DARKSIDE957/VRCFX/releases/latest).
+
+A star on GitHub helps more people find it too.
+
+<p align="center">
+  <a href="https://github.com/DARKSIDE957/VRCFX"><img src="https://img.shields.io/badge/Star_this_repo-111111?style=for-the-badge&logo=github" alt="Star this repo"></a>
+  <a href="https://github.com/DARKSIDE957/VRCFX/releases/latest"><img src="https://img.shields.io/badge/Share_the_download-2ea44f?style=for-the-badge" alt="Share the download"></a>
+</p>
+
+---
+
 <p align="center">
   <sub>VRCFX. A cleaner desktop experience for VRChat.</sub>
 </p>
