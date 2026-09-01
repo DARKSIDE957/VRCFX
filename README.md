@@ -27,8 +27,6 @@
   <a href="https://github.com/DARKSIDE957/VRCFX/issues">Support</a>
 </p>
 
----
-
 ## Why VRCFX
 
 VRChat already takes the whole screen. VRCFX keeps the useful stuff nearby:
@@ -36,8 +34,6 @@ VRChat already takes the whole screen. VRCFX keeps the useful stuff nearby:
 who is online, what you wear, where you jump next, and who just walked into your instance.
 
 No clutter. No noise. Just the tools you reach for while you play.
-
----
 
 ## Features
 
@@ -57,14 +53,7 @@ Know who is in your instance from local VRChat logs, as it happens on your PC.
 Clear notifications in the app or on the desktop. Turn them on when you want them. Mute when you do not.
 
 ### Languages
-Switch the whole app language in Settings. Available now:
-
-- English
-- Arabic
-- Spanish
-- French
-
----
+Switch the whole app language in Settings. English, Arabic, Spanish, and French are available now.
 
 ## Install
 
@@ -75,17 +64,13 @@ Switch the whole app language in Settings. Available now:
 
 Your notes, settings, and local history stay on your computer across updates.
 
----
-
 ## Windows Smart App Control
 
-On **Windows 11**, **Smart App Control** can block or remove VRCFX while you download or install it. That is a Windows safety feature — it does **not** mean VRCFX is malware.
+On **Windows 11**, **Smart App Control** can block or remove VRCFX while you download or install it. That is a Windows safety feature. It does **not** mean VRCFX is malware.
 
 ### Why Smart App Control blocks VRCFX
 
-- VRCFX is downloaded from GitHub, not the Microsoft Store.
-- New or independently published apps often have no reputation score yet in Microsoft’s system.
-- Smart App Control only allows apps it already trusts. Until VRCFX is widely recognized, Windows may stop the installer or the app from running.
+VRCFX is downloaded from GitHub, not the Microsoft Store. New or independently published apps often have no reputation score yet in Microsoft’s system. Smart App Control only allows apps it already trusts. Until VRCFX is widely recognized, Windows may stop the installer or the app from running.
 
 VRCFX is open source, scanned on VirusTotal, and runs only on your PC. Smart App Control is being cautious, not detecting a virus.
 
@@ -97,8 +82,6 @@ VRCFX is open source, scanned on VirusTotal, and runs only on your PC. Smart App
 4. After installation finishes and VRCFX opens normally, you can turn Smart App Control **back On**.
 
 If Windows shows a one-time prompt for this file only, you can also choose **Run anyway** or allow the app instead of disabling Smart App Control for the whole system.
-
----
 
 ## Safe to install
 
@@ -134,15 +117,11 @@ Do this again whenever you download a new version. Each build is a new file, so 
   </a>
 </p>
 
----
-
 ## Updates
 
 In the app, open **Update** in the sidebar (above Mute).
 
 VRCFX checks Releases, downloads a newer installer when one exists, closes for setup, then opens again when install finishes.
-
----
 
 ## Privacy
 
@@ -152,8 +131,6 @@ Full details: **[Privacy Policy](./PRIVACY.md)**
 
 In the app: **Settings → Privacy & Policy**, or **Guide → Privacy & Policy**.
 
----
-
 ## Help
 
 Something break?
@@ -161,8 +138,6 @@ Something break?
 1. Note what you were doing.
 2. Note which version you are on.
 3. [Open an issue](https://github.com/DARKSIDE957/VRCFX/issues) on this repository.
-
----
 
 ## Like VRCFX?
 
@@ -176,8 +151,6 @@ A star on GitHub helps too.
   <a href="https://github.com/DARKSIDE957/VRCFX"><img src="https://img.shields.io/badge/Star_this_repo-111111?style=for-the-badge&logo=github" alt="Star this repo"></a>
   <a href="https://github.com/DARKSIDE957/VRCFX/releases/latest"><img src="https://img.shields.io/badge/Share_the_download-2ea44f?style=for-the-badge" alt="Share the download"></a>
 </p>
-
----
 
 <p align="center">
   <sub>VRCFX. A cleaner desktop experience for VRChat.</sub>
