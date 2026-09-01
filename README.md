@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/DARKSIDE957/VRCFX/releases/latest"><img src="https://img.shields.io/badge/Download-Windows-black?style=for-the-badge" alt="Download for Windows"></a>
+  <a href="https://github.com/DARKSIDE957/VRCFX/releases/latest"><img src="https://img.shields.io/badge/Download-Windows-1e3a5f?style=for-the-badge" alt="Download for Windows"></a>
   <a href="./PRIVACY.md"><img src="https://img.shields.io/badge/Privacy-Policy-111111?style=for-the-badge" alt="Privacy Policy"></a>
   <a href="https://www.virustotal.com/gui/file/3d74f17227ffa75a2aedaa724aa8eeaf460821cb15ecbc0204f67acceed73bf7"><img src="https://img.shields.io/badge/VirusTotal-Clean-2ea44f?style=for-the-badge" alt="VirusTotal Clean"></a>
 </p>
@@ -74,6 +74,29 @@ Switch the whole app language in Settings. Available now:
 4. Use the sidebar to move between Friends, Worlds, Avatars, Radar, and Settings.
 
 Your notes, settings, and local history stay on your computer across updates.
+
+---
+
+## Windows Smart App Control
+
+On **Windows 11**, **Smart App Control** can block or remove VRCFX while you download or install it. That is a Windows safety feature — it does **not** mean VRCFX is malware.
+
+### Why Smart App Control blocks VRCFX
+
+- VRCFX is downloaded from GitHub, not the Microsoft Store.
+- New or independently published apps often have no reputation score yet in Microsoft’s system.
+- Smart App Control only allows apps it already trusts. Until VRCFX is widely recognized, Windows may stop the installer or the app from running.
+
+VRCFX is open source, scanned on VirusTotal, and runs only on your PC. Smart App Control is being cautious, not detecting a virus.
+
+### What to do when installing
+
+1. Open **Windows Security** → **App & browser control** → **Smart App Control**.
+2. Turn Smart App Control **Off** before you download the installer.
+3. Download VRCFX from [Releases](https://github.com/DARKSIDE957/VRCFX/releases/latest) and run the setup.
+4. After installation finishes and VRCFX opens normally, you can turn Smart App Control **back On**.
+
+If Windows shows a one-time prompt for this file only, you can also choose **Run anyway** or allow the app instead of disabling Smart App Control for the whole system.
 
 ---
 
