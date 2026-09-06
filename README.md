@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  Track friends, browse worlds, switch avatars, and see who is in your room —<br>
+  Track friends, browse worlds, switch avatars, and see who is in your room<br>
   while VRChat runs full screen beside you.
 </p>
 
@@ -137,7 +137,7 @@ Something break?
 
 ## Like VRCFX?
 
-Share it with friends who play VRChat — this repo or the [latest download](https://github.com/DARKSIDE957/VRCFX/releases/latest).
+Share it with friends who play VRChat. Use this repo or the [latest download](https://github.com/DARKSIDE957/VRCFX/releases/latest).
 
 A star on GitHub helps too.
 
@@ -147,5 +147,5 @@ A star on GitHub helps too.
 </p>
 
 <p align="center">
-  <sub>VRCFX — the desktop toolkit for VRChat on Windows.</sub>
+  <sub>VRCFX, the desktop toolkit for VRChat on Windows.</sub>
 </p>
