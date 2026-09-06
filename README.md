@@ -5,12 +5,12 @@
 <h1 align="center">VRCFX</h1>
 
 <p align="center">
-  <strong>Your VRChat toolkit for Windows.</strong>
+  <strong>A Windows desktop app for VRChat players.</strong>
 </p>
 
 <p align="center">
-  Friends. Avatars. Worlds. Live room awareness.<br>
-  Built to sit beside the game, not on top of it.
+  Track friends, browse worlds, switch avatars, and see who is in your room —<br>
+  while VRChat runs full screen beside you.
 </p>
 
 <p align="center">
@@ -27,42 +27,44 @@
   <a href="https://github.com/DARKSIDE957/VRCFX/issues">Support</a>
 </p>
 
-## Why VRCFX
+## What is VRCFX?
 
-VRChat already takes the whole screen. VRCFX keeps the useful stuff nearby:
+**VRCFX** is a free Windows toolkit that sits next to VRChat. It does **not** replace the game. It gives you a clear desktop window for the things players need all the time:
 
-who is online, what you wear, where you jump next, and who just walked into your instance.
+- Who of your friends is online, and where they are
+- Which worlds are trending, saved, or open right now (including age-gated instances when you can see them)
+- Which avatar you want to wear next
+- Who just joined the instance you are in
+- Optional alerts on your desktop when something important happens
 
-No clutter. No noise. Just the tools you reach for while you play.
+Sign in with your normal VRChat account (2FA supported). Most of your notes, settings, and history stay on your PC.
 
-## Features
+## What it does
 
 ### Friends
-See who is online and where they went. Spot quiet contacts and keep your list tidy.
-
-### Avatars
-Wear a favorite in one click. The free list always works. VRC+ lists unlock when your account has Plus.
+See online and offline friends, their current world, past names, and your own notes. Clean inactive contacts when the list gets too large.
 
 ### Worlds
-Open saved places fast, or explore what is active right now.
+Explore trending, top rated, hot, games, hangout, and music & club worlds. Open a world to list live instances, join a specific room, and spot **age verification (18+)** instances when the API shows them. Save favorites and set a home world.
+
+### Avatars
+Browse favorites and wear one in a click. Free lists always work; VRC+ lists unlock when your account has Plus.
 
 ### Live Radar
-Know who is in your instance from local VRChat logs, as it happens on your PC.
+Reads VRChat’s local log files on your PC to show who is in your current room, with avatars when available. Includes in-game join/leave logs and visited world history with thumbnails.
 
-### Alerts
-Clear notifications in the app or on the desktop. Turn them on when you want them. Mute when you do not.
+### Alerts & overlays
+In-app toasts and optional desktop overlays for friend online, world changes, room joins, and more. Mute everything from the sidebar when you want quiet.
 
-### Languages
-Switch the whole app language in Settings. English, Arabic, Spanish, and French are available now.
+### Themes, text size & languages
+Built-in themes plus a custom color builder, text size that scales fonts only, and full UI languages: English, Arabic, Spanish, and French.
 
 ## Install
 
 1. Download the latest Windows installer from [Releases](https://github.com/DARKSIDE957/VRCFX/releases/latest).
 2. Run the setup. If VRCFX is already installed, it shows the current path and version, and only updates when it should.
-3. Sign in with your VRChat account. 2FA is supported.
-4. Use the sidebar to move between Friends, Worlds, Avatars, Radar, and Settings.
-
-Your notes, settings, and local history stay on your computer across updates.
+3. Sign in with your VRChat account.
+4. Use the sidebar: Friends, Worlds, Avatars, Radar, Guide, and Settings.
 
 ## Windows Smart App Control
 
@@ -70,9 +72,7 @@ On **Windows 11**, **Smart App Control** can block or remove VRCFX while you dow
 
 ### Why Smart App Control blocks VRCFX
 
-VRCFX is downloaded from GitHub, not the Microsoft Store. New or independently published apps often have no reputation score yet in Microsoft’s system. Smart App Control only allows apps it already trusts. Until VRCFX is widely recognized, Windows may stop the installer or the app from running.
-
-VRCFX is open source, scanned on VirusTotal, and runs only on your PC. Smart App Control is being cautious, not detecting a virus.
+VRCFX is downloaded from GitHub, not the Microsoft Store. New or independently published apps often have no reputation score yet. Smart App Control only allows apps it already trusts. Until VRCFX is widely recognized, Windows may stop the installer or the app from running.
 
 ### What to do when installing
 
@@ -85,17 +85,13 @@ If Windows shows a one-time prompt for this file only, you can also choose **Run
 
 ## Safe to install
 
-VRCFX is totally safe to download and use.
-
-The Windows installer and the app were both scanned on VirusTotal. No antivirus engines reported malware or anything harmful.
-
-You can also scan it yourself any time:
+The Windows installer and the app were scanned on VirusTotal. You can scan any download yourself:
 
 1. Go to [VirusTotal](https://www.virustotal.com/gui/home/upload).
 2. Upload the installer or `VRCFX.exe` you just downloaded.
-3. Wait for the report and confirm it is clean before you install.
+3. Wait for the report before you install.
 
-Do this again whenever you download a new version. Each build is a new file, so a fresh scan is the safest check.
+Do this again whenever you download a new version. Each build is a new file.
 
 <p align="center">
   <a href="https://www.virustotal.com/gui/file/3d74f17227ffa75a2aedaa724aa8eeaf460821cb15ecbc0204f67acceed73bf7"><strong>Installer report</strong></a>
@@ -125,25 +121,23 @@ VRCFX checks Releases, downloads a newer installer when one exists, closes for s
 
 ## Privacy
 
-VRCFX is built to run on your computer. Most data stays local.
+VRCFX is built to run on your computer. Most data stays local. It talks to official VRChat APIs for login and game data.
 
 Full details: **[Privacy Policy](./PRIVACY.md)**
 
-In the app: **Settings → Privacy & Policy**, or **Guide → Privacy & Policy**.
+In the app: **Settings → Privacy & Policy**, or **Guide → Privacy & Data**.
 
 ## Help
 
 Something break?
 
 1. Note what you were doing.
-2. Note which version you are on.
+2. Note which version you are on (Settings footer or sidebar).
 3. [Open an issue](https://github.com/DARKSIDE957/VRCFX/issues) on this repository.
 
 ## Like VRCFX?
 
-If you like the app, share it with friends who play VRChat.
-
-You can send them this repo, or the [latest download](https://github.com/DARKSIDE957/VRCFX/releases/latest).
+Share it with friends who play VRChat — this repo or the [latest download](https://github.com/DARKSIDE957/VRCFX/releases/latest).
 
 A star on GitHub helps too.
 
@@ -153,5 +147,5 @@ A star on GitHub helps too.
 </p>
 
 <p align="center">
-  <sub>VRCFX. A cleaner desktop experience for VRChat.</sub>
+  <sub>VRCFX — the desktop toolkit for VRChat on Windows.</sub>
 </p>
