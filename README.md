@@ -27,6 +27,10 @@
   <a href="https://github.com/DARKSIDE957/VRCFX/issues">Support</a>
 </p>
 
+<p align="center">
+  <img src="./docs/screenshot-friends.png" alt="VRCFX Friends Hub" width="900">
+</p>
+
 ## What is VRCFX?
 
 **VRCFX** is a free Windows toolkit that sits next to VRChat. It does **not** replace the game. It gives you a clear desktop window for the things players need all the time:
